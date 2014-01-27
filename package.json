@@ -1,0 +1,22 @@
+{
+  "name": "express-route-builder",
+  "version": "0.0.0",
+  "description": "A convention for seperating routes into manageable chunks",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:colinphanna/express-route-builder.git"
+  },
+  "keywords": [
+    "Express",
+    "Routes"
+  ],
+  "author": "Colin P. Hanna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colinphanna/express-route-builder/issues"
+  }
+}
