@@ -18,5 +18,19 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/colinphanna/express-route-builder/issues"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "methods": "~0.1.0"
+  },
+  "devDependencies": {
+    "fs-extra": "~0.8.1",
+    "chai": "~1.9.0",
+    "express": "~3.4.8",
+    "gulp": "~3.5.1",
+    "gulp-watch": "~0.5.0",
+    "gulp-util": "~2.2.14",
+    "gulp-mocha": "~0.4.1",
+    "gulp-load-plugins": "~0.2.0"
   }
 }
