@@ -1,6 +1,6 @@
 {
-  "name": "express-route-builder",
-  "version": "0.0.0",
+  "name": "simple-express-route-builder",
+  "version": "0.1.0",
   "description": "A convention for seperating routes into manageable chunks",
   "main": "index.js",
   "scripts": {
