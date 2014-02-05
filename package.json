@@ -4,7 +4,7 @@
   "description": "A convention for seperating routes into manageable chunks",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "gulp mocha"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "Express",
     "Routes"
   ],
-  "author": "Colin P. Hanna",
+  "author": "Compass Learning",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/colinphanna/express-route-builder/issues"
