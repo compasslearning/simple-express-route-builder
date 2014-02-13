@@ -9,7 +9,10 @@ var buildRoutes = function (app, dir) {
     dir = './routes';
   }
 
-  var indexes = getFileTreeSync(dir);
+  var filter = function (file) {
+      return (/index\.js$/).test(file);
+    },
+    indexes = getFileTreeSync(dir, filter);
 
   _.each(indexes, function (index) {
     var proxy = expressProxy.init();
